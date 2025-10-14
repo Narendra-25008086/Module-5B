@@ -17,6 +17,7 @@ To write a Python program using Pandas to *join two DataFrames along rows* (row-
 ---
 
 ## 💻 Program
+```
 
 import pandas as pd
 df1 = pd.DataFrame({
@@ -30,7 +31,7 @@ df2 = pd.DataFrame({
 df_new = pd.concat([df1, df2], axis=0, ignore_index=True)
 print("New DataFrame after row-wise concatenation:")
 print(df_new)
-
+```
 
 ## Output
 
