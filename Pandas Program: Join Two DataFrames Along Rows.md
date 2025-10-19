@@ -20,22 +20,28 @@ To write a Python program using Pandas to *join two DataFrames along rows* (row-
 ```
 
 import pandas as pd
-df1 = pd.DataFrame({
-    'A': [1, 2, 3],
-    'B': ['a', 'b', 'c']
+df1=pd.DataFrame({
+    's_id':['S1','S2','S3','S4','S5'],
+    'name':['Dan','Ryder','Bryce','Bernal','Kwame'],
+    'marks':[200, 210, 190, 222,199]
 })
-df2 = pd.DataFrame({
-    'A': [4, 5, 6],
-    'B': ['d', 'e', 'f']
+df2=pd.DataFrame({
+    's_id':['S4','S5','S6','S7','S8'],
+    'name':['Scart','Willy','Dani','Kaise','Madeeha'],
+    'marks':[201,200,198,219,201]
 })
-df_new = pd.concat([df1, df2], axis=0, ignore_index=True)
-print("New DataFrame after row-wise concatenation:")
-print(df_new)
+res=pd.concat([df1,df2],axis=0)
+print("Original DataFrames:")
+print(df1)
+print("-------------------------------------")
+print(df2)
+print()
+print("Join the said two dataframes along rows:")
+print(res)
 ```
 
 ## Output
-
-![WhatsApp Image 2025-10-14 at 22 12 39_dc886e44](https://github.com/user-attachments/assets/c3aee9ee-b7e3-4484-95ac-5b2576bb7f90)
+![Uploading WhatsApp Image 2025-10-19 at 20.15.44_dd318762.jpg…]()
 
 
 ## Result
