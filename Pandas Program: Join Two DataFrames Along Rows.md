@@ -41,7 +41,7 @@ print(res)
 ```
 
 ## Output
-![Uploading WhatsApp Image 2025-10-19 at 20.15.44_dd318762.jpg…]()
+![WhatsApp Image 2025-10-19 at 20 15 44_dd318762](https://github.com/user-attachments/assets/c6a92bd3-519d-4d9b-b166-08d1702aa609)
 
 
 ## Result
