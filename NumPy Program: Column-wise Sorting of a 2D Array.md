@@ -15,34 +15,18 @@ To write a **NumPy** program that sorts the elements in each column of a given 2
 Add code here
 ```
 import numpy as np
+d=eval(input())
+arr=np.array(d)
+print("Given array")
+print(f" {arr}")
 
-# Accept input for 2D array
-rows = int(input("Enter number of rows: "))
-cols = int(input("Enter number of columns: "))
-
-print("Enter the elements row-wise (space-separated):")
-arr = []
-for i in range(rows):
-    arr.append(list(map(int, input().split())))
-
-# Convert to NumPy array
-array = np.array(arr)
-
-# Column-wise sorting
-sorted_array = np.sort(array, axis=0)
-
-# Display results
-print("\nOriginal Array:")
-print(array)
-
-print("\nColumn-wise Sorted Array:")
-print(sorted_array)
+print(f"\n{np.sort(arr,axis=0)}")
 
 ```
 
 
 ## Output
-<img width="556" height="324" alt="image" src="https://github.com/user-attachments/assets/71b611b1-9f43-4f95-b3ab-ef25d76c19a5" />
+![Uploading WhatsApp Image 2025-10-19 at 20.02.57_8b3124f6.jpg…]()
 
 
 
